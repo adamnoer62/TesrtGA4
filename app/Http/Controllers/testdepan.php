@@ -14,7 +14,8 @@ class testdepan extends Controller
      */
     public function halaman1()
     {
-    return view('halaman1');
+    $coba = "oke";
+    return view('halaman1' , compact('coba'));
     }
 
      public function halaman2()
